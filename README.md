@@ -57,7 +57,11 @@ sudo apt install python-pip
 Python 3:
 
 sudo apt install python3-venv python3-pip
- 安装
+
+
+sudo apt install git
+
+安装
 
 git clone https://github.com/StanfordPupper/StanfordQuadruped.git
 
