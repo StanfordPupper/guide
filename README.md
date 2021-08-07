@@ -67,3 +67,19 @@ git clone https://github.com/StanfordPupper/StanfordQuadruped.git
 
 cd StanfordQuadruped
 sudo bash install.sh
+  
+  
+  
+  
+////
+  
+pi@raspberrypi:~/pupper/StanfordQuadruped $ sudo ln -s $(realpath .)/robot.service /etc/systemd/system/
+ln: failed to create symbolic link '/etc/systemd/system/robot.service': File exists
+
+
+pi@raspberrypi:~/pupper/StanfordQuadruped $ sudo ln -sf $(realpath .)/robot.service /etc/systemd/system/
+
+  
+  
+  
+  
